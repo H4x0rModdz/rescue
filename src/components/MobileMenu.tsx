@@ -65,6 +65,30 @@ export function MobileMenu() {
 						</Link>
 					</SheetClose>
 				</li>
+
+				<li className="flex">
+					<SheetClose asChild>
+						<Link
+							href="tel:199"
+							target="_blank"
+							className={`w-full px-2 py-3 ${path === "tel:199" ? "bg-white text-primary" : "text-white"}`}
+						>
+							Defesa Civil
+						</Link>
+					</SheetClose>
+					</li>
+
+					<li className="flex">
+					<SheetClose asChild>
+						<Link
+							href="tel:193"
+							target="_blank"
+							className={`w-full px-2 py-3 ${path === "tel:193" ? "bg-white text-primary" : "text-white"}`}
+						>
+							Bombeiros
+						</Link>
+					</SheetClose>
+				</li>
 			</ul>
 		</nav>
 	);
